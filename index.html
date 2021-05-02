@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAC MOUNT ZION</title>
+    <link rel="stylesheet" href="lib/css/style.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/ionicons/css/ionicons.min.css">
+</head>
+
+<body>
+    <header class="fixed-top">
+        <nav>
+            <div class="nav-brand"><a href="index.html">CAC <span>MOUNT ZION</span></a></div>
+            <div class="menu-btn" onclick="document.querySelector('.navbar').style.right = '0'; toggleScroll();"><i
+                    class="ion-navicon-round"></i></div>
+            <div class="navbar">
+                <span class="ion-close close-btn"
+                    onclick="document.querySelector('.navbar').style.right = '-40rem'; removeScroll()"></span>
+                <li><a href="#intro"><i class="ion-home"></i> Home</a></li>
+                <li><a href="#event"><i class="ion-clipboard"></i> Event</a></li>
+                <li><a href="#sermon"><i class="ion-android-microphone"></i> Sermon</a></li>
+                <li><a href="#about"><i class="ion-information-circled"></i> About</a></li>
+                <li><a href="#contact"><i class="ion-ios-telephone"></i> Contact</a></li>
+                <li><a href="#live"><i class="ion-ios-videocam"></i> Live</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <div id="intro" class="intro" style="background-image: url(lib/img/bg_1.jpg);">
+        <div class="intro-content">
+            <div class="intro-msg">
+                <h1>We Love you, You are welcome</h1>
+                <button>Worship with us</button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="social-links">
+            <i class="ion-social-facebook" style="font-size: 1.5em; color: royalblue; cursor: pointer;"></i>
+            <i class="ion-social-whatsapp" style="font-size: 1.5em; color: lightgreen; cursor: pointer;"></i>
+            <i class="ion-social-twitter" style="font-size: 1.5em; color: lightskyblue; cursor: pointer;"></i>
+        </div>
+        <div class="intro-bottom">
+            <div class="intro-msg">
+                <marquee behavior="scroll" direction="left">
+                    <h5 style="margin: 0;">CHRIST APOSTOLIC CHURCH MOUNT ZION KINGDOM OUTREACH *Wednesday Programm commensed today at 8am please make sure you attend the program next week. God bless you*</h5>
+                </marquee>
+            </div>
+            <div class="intro-calendar">
+        
+                <div class="info container">
+                    <h4 style="font-weight: bolder;"><i class=""></i> Bible Study Today</h4>
+                    <p><i class="ion-calendar"></i> Tuesday 6pm to 8pm</p>
+                    <!-- <p>We love to disciple, train, teach our bredthren in the way of the lord</p> -->
+                </div>
+                <div class="container calendar">
+                    <div class="time">
+                        <div class="hour"></div>
+                        <div class="minute"></div>
+                        <div class="ampm"></div>
+                    </div>
+                    <div class="date">
+                        <p class="day"></p>
+                        <p class="month"></p>
+                        <p class="year"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <section class="location">
+            <div class="content">
+                <h4 style="text-align: center;">WELCOME TO OUR CHURCH</h4>
+                <p style="color: royalblue;"><i class="ion-location"> CAC Mount Zion</i></p>
+                <p><i class="ion-ios-paperplane"> 41, Igbehinadun Str. Off Saabo, Ojodu, Lagos, Nigeria</i></p>
+            </div>
+            <div class="countdown">
+                <h5 class="daycount"></h5>
+                <h5 class="hrcount"></h5>
+                <h5 class="mincount"></h5>
+                <h5 class="seccount"></h5>
+            </div>
+        </section>
+
+        <section id="event">
+            <h3 style="text-align: center; padding: 1em; background: whitesmoke;">OUR EVENTS</h3>
+            <div class="event">
+
+                <div class="content">
+                    <img src="lib/img/event-1.jpg">
+                    <div class="info">
+                        <h4 style="text-align: center;">BIBLE STUDY</h4>
+                        <p class="ion-calendar"> Tuesday (6pm - 8pm)</p>
+                        <p><i class="ion-location"> CAC Mount Zion</i></p>
+                        <p><i class="ion-ios-paperplane"> 41, Igbehinadun Str. Off Saabo, Ojodu, Lagos, Nigeria</i></p>
+                    </div>               
+                </div>
+
+                <div class="content">
+                    <img src="lib/img/event-3.jpg">
+                    <div class="info">
+                        <h4 style="text-align: center;">MORNING GATHERING</h4>
+                        <p class="ion-calendar"> Wednesday (8am - 12pm)</p>
+                        <p><i class="ion-location"> CAC Mount Zion</i></p>
+                        <p><i class="ion-ios-paperplane"> 41, Igbehinadun Str. Off Saabo, Ojodu, Lagos, Nigeria</i></p>
+                    </div>   
+                </div>
+
+                <div class="content">
+                    <img src="lib/img/sermons-1.jpg">
+                    <div class="info">
+                        <h4 style="text-align: center;">SUNDAY SCHOOL</h4>
+                        <p class="ion-calendar"> Sunday (8am - 9am)</p>
+                        <p><i class="ion-location"> CAC Mount Zion</i></p>
+                        <p><i class="ion-ios-paperplane"> 41, Igbehinadun Str. Off Saabo, Ojodu, Lagos, Nigeria</i></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h3 style="text-align: center; padding: 1em; background: whitesmoke;">VALUES, VISION AND MISSION</h3>
+            <p style="text-align: center; font-weight: bolder;">We believe it's important for our church to know what we
+                value and understand the vision for our future.</p>
+            <div class="content">
+                <p class="values container">
+                    Understanding why you're doing what you're doing (your objective), where you're attempting to go
+                    (your vision), along with just how you're probably to take care of it (your worths) are the adhesive
+                    that holds a company with each other. It is a vital part to constructing your tactical foundation
+                    and likewise creating a method. You safeguard these aspects while your techniques and also purposes
+                    change as additionally flex with the marketplace.
+                </p>
+
+                <p class="vision container">
+                    Your goal, vision and well worths can appear abstract, heavy, along with completely fluffy to a lot
+                    of people, specifically those that are losing to move on with a real-world job. These people don't
+                    want to hang back developing concerning people's needs along with wishes. Do not permit being useful
+                    block of this important phase of building a strong structure of consensus for your firm. If you do
+                    not take the time to explain in words goal. 
+                </p>
+
+                <p class="mission container">
+                    With your planning team developed along with your timetable set, you prepare to relocate right into
+                    developing, or evaluating (if you presently have these declarations), your goal, vision and also
+                    worths. To efficiently move with this stage, do not perplex goal as also vision. Objective is a
+                    statement concerning your core function, why you exist, and also is finest specified in the here and
+                    now tense.Vision is a statement regarding your needed state, where you mean to go.
+                </p>
+            </div>
+
+            <h4 style="text-align: center;">OUR FAITH</h4>
+            <p style="font-weight: bolder; text-align: center;">Serving & Shering</p>
+
+            <p class="container" style="padding: 2em;">
+                At Belief Church, our company believe that there is only one Senior Pastor of the church: Jesus (1 Peter
+                5:4). Jesus has actually offered the function of under-shepherd to elders that work as caring slaves to
+                look for the well-being of local churchgoers.
+
+
+                Taking into account that, we are Jesus led, older shepherded, deacon/staff-served, and also
+                congregationally accountable. In short, we pursue Jesus with each other as the Elders cast vision, work
+                hand-in-hand with the staff as Deacons to achieve that vision, like the congregation lives on goal while
+                holding leadership accountable to the Scriptures.
+            </p>
+
+        </section>
+
+        <section class="gallery">
+            <h3 style="text-align: center; padding: 1em;">GALLERY</h3>
+            <div class="carousel slide carousel-fade" data-ride="carousel" id="gallery">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#gallery" data-slide-to="0" class="active"></li>
+                    <li data-target="#gallery" data-slide-to="1"></li>
+                    <li data-target="#gallery" data-slide-to="2"></li>
+                    <li data-target="#gallery" data-slide-to="3"></li>
+                    <li data-target="#gallery" data-slide-to="4"></li>
+
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="lib/img/1.jpg" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="lib/img/2.jpg" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="lib/img/event-4.jpg" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="lib/img/event-1.jpg" alt="...">
+                    </div><div class="carousel-item">
+                        <img src="lib/img/event-3.jpg" alt="...">
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#gallery" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#gallery" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </section>
+
+        <section class="sermon" id="sermon">
+            <h3 style="text-align: center;">SERMONS</h3>
+            <div class="sermon-content">
+                <div class="content">
+                    <img src="lib/img/bg_1.jpg" alt="" style="height: 12em;">
+                    <div class="info">
+                        <h5>Destiny</h5>
+                        <p>Text: Gen 13:5-7</p>
+                        <i class="ion-thumbsup" style="font-size: 1.5em; cursor: pointer; color: royalblue; margin: .5em;"></i>
+                        <i class="ion-thumbsdown" style="font-size: 1.5em; cursor: pointer; color: royalblue; margin: .5em;"></i>
+                        <i class="ion-mic-a" style="font-size: 1.5em; cursor: pointer; color: royalblue; margin: .5em;"></i>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <img src="lib/img/bg_1.jpg" alt="" style="height: 12em;">
+                    <div class="info">
+                        <h5>Wasters of time and Destiny</h5>
+                        <p>Text: Gen 13:5-7</p>
+                        <i class="ion-thumbsup" style="font-size: 1.5em; cursor: pointer; color: royalblue; margin: .5em;"></i>
+                        <i class="ion-thumbsdown" style="font-size: 1.5em; cursor: pointer; color: royalblue; margin: .5em;"></i>
+                        <i class="ion-mic-a" style="font-size: 1.5em; cursor: pointer; color: royalblue; margin: .5em;"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/js/main.js"></script>
+</body>
+
+</html>
